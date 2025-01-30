@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import HelloWorld from './components/HelloWorld.vue'
-import Track from './components/track.vue';
+import Track from './components/Track.vue';
 </script>
 
 <template>
