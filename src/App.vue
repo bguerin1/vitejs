@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import HelloWorld from './components/HelloWorld.vue'
 import Track from './components/Track.vue';
+import Author from './components/Author.vue';
 </script>
 
 <template>
@@ -12,9 +13,11 @@ import Track from './components/Track.vue';
       <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
     </a>
   </div>
-  <HelloWorld msg="Vite + Vue" />
-  <Track />
-
+  <div>
+    <HelloWorld msg="Vite + Vue" />
+    <Track />
+    <Author />
+  </div>
 </template>
 
 <style scoped>
