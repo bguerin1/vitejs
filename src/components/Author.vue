@@ -6,7 +6,13 @@ const author = reactive({
   books: [
     'Vue 2 - Brosseau',
     'Vue 3 - Test',
-    'Vue 4 - Démo'
+    'Vue 4 - Démo',
+    'Vue 5 - Démo',
+    'Vue 2 - Brosseau',
+    'Vue 3 - Test',
+    'Vue 4 - Démo',
+    'Vue 5 - Démo'
+
   ]
 })
 
