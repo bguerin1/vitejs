@@ -2,6 +2,10 @@
 import HelloWorld from './components/HelloWorld.vue'
 import Track from './components/Track.vue';
 import Author from './components/Author.vue';
+import Test from './components/Test.vue';
+import Card from './components/Card.vue';
+import ButtonP from './components/ButtonP.vue';
+import Navbar from './components/Navbar.vue';
 </script>
 
 <template>
@@ -17,6 +21,14 @@ import Author from './components/Author.vue';
     <HelloWorld msg="Vite + Vue" />
     <Track />
     <Author />
+    <Test />
+  </div>
+  <h1>-----------------------------------</h1>
+  <div>
+    <Card>Voici une card et son contenu</Card>
+    <br>
+    <ButtonP label="Clique moi !" color="btn btn-primary"/>
+    <Navbar />
   </div>
 </template>
 
